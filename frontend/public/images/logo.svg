@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Architectural Metallic Warm Gold -->
+    <linearGradient id="primaryGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E5B5"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#AA822A"/>
+      <stop offset="100%" stop-color="#805F19"/>
+    </linearGradient>
+
+    <linearGradient id="lightFacet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#E2C267"/>
+      <stop offset="100%" stop-color="#A57E26"/>
+    </linearGradient>
+
+    <linearGradient id="darkFacet" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B8933A"/>
+      <stop offset="100%" stop-color="#6E5013"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Geometric Architectural Stone Emblem (Transparent Background) -->
+  <g transform="translate(50, 20)">
+    <!-- Outer Precision Diamond Shield Frame -->
+    <polygon points="150,15 260,75 285,195 210,270 90,270 15,195 40,75" 
+             stroke="url(#primaryGold)" stroke-width="2.5" fill="none" opacity="0.85"/>
+    
+    <polygon points="150,30 245,82 268,188 202,255 98,255 32,188 55,82" 
+             stroke="url(#primaryGold)" stroke-width="1" fill="none" opacity="0.35" stroke-dasharray="3 5"/>
+
+    <!-- Central Minimalist Architectural "A" Monogram Slabs -->
+    <!-- Left Slab Column -->
+    <polygon points="150,55 95,225 125,225 150,135" fill="url(#primaryGold)"/>
+    <polygon points="150,55 68,238 95,238 150,105" fill="url(#lightFacet)"/>
+
+    <!-- Right Slab Column -->
+    <polygon points="150,55 205,225 175,225 150,135" fill="url(#darkFacet)"/>
+    <polygon points="150,55 232,238 205,238 150,105" fill="url(#primaryGold)"/>
+
+    <!-- Precision Horizontal Cross-Stone -->
+    <polygon points="102,175 198,175 190,192 110,192" fill="url(#primaryGold)"/>
+    
+    <!-- Central Diamond Apex Keystone -->
+    <polygon points="150,42 162,58 150,74 138,58" fill="url(#lightFacet)"/>
+  </g>
+
+  <!-- Typography: ABDULLAH MARBLE FACTORY -->
+  <text x="200" y="325" 
+        text-anchor="middle" 
+        font-family="'Cormorant Garamond', 'Cinzel', 'Times New Roman', serif" 
+        font-size="30" 
+        font-weight="700" 
+        letter-spacing="5" 
+        fill="url(#primaryGold)">
+    ABDULLAH
+  </text>
+
+  <text x="200" y="352" 
+        text-anchor="middle" 
+        font-family="'Inter', -apple-system, sans-serif" 
+        font-size="11" 
+        font-weight="700" 
+        letter-spacing="6" 
+        fill="#A39D94">
+    MARBLE FACTORY
+  </text>
+
+  <text x="200" y="372" 
+        text-anchor="middle" 
+        font-family="'Inter', sans-serif" 
+        font-size="9" 
+        font-weight="600" 
+        letter-spacing="3" 
+        fill="#C5A059">
+    FORT ABBAS • EST. 2012
+  </text>
+</svg>
